@@ -11,12 +11,12 @@ name1.innerHTML = "Tay-Tay";
 
 Project Manager*/
 
-position2.innerHTML= "Project Manager";
+position2.innerHTML = "Project Manager";
 
 /*3. Replace the n/a with the following:
 
 Concatenation*/
-
+alias3.innerHTML = "Concatenation";
 
 
 /*4. Replace the n/a for Snoop with the gangsta lorem ipsum*/
