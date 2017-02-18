@@ -11,7 +11,7 @@ name1.innerHTML = "Tay-Tay";
 
 Project Manager*/
 
-
+position2.innerHTML= "Project Manager";
 
 /*3. Replace the n/a with the following:
 
