@@ -3,6 +3,7 @@
 /*1. Replace the n/a with the following:
 
 Tay-Tay*/
+name1.innerHTML = "Tay-Tay";
 
 
 
