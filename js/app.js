@@ -37,17 +37,42 @@ Append this div element to the nameBox div*/
  chuckName.id = "name7";
  chuckName.innerHTML = "Chuck Norris";
 
-var chuckNameBox = document.getElementById("nameBox");
 
-chuckNameBox.appendChild(chuckName);
+nameBox.appendChild(chuckName);
 
 
 /*7. Create a div element for Grimmace and give it an id of "alias8". Inside this div element, give it the contents of "The Purple Monster".
 
 Append this div element to the aliasBox div.*/
 
+var grimDiv = document.createElement("div");
+grimDiv.id = "alias8";
+grimDiv.innerHTML = "The Purple Monster";
 
+aliasBox.appendChild(grimDiv);
 
 
 //Final Boss
 /*8. Create your own profile.*/
+
+var myName = document.createElement("div");
+myName.id = "name9";
+myName.innerHTML = "Gagan Tut";
+
+var myPosition = document.createElement("div");
+myPosition.id = "position9";
+myPosition.innerHTML = "Da Builder";
+
+var myAlias = document.createElement("div");
+myAlias.id = "alias9";
+myAlias.innerHTML = "The One Who Creates";
+
+var myBio = document.createElement("div");
+myBio.id = "bio9";
+myBio.innerHTML = "Topgallant provost Pieces of Eight galleon driver hearties bring a spring upon her cable blow the man down pink skysail. Hogshead keelhaul splice the main brace heave to ahoy snow wench interloper boom topsail. Davy Jones' Locker Corsair sloop cutlass lateen sail case shot man-of-war bilge water belaying pin sheet.";
+
+document.getElementsByClassName("block3")[2].appendChild(myName);
+document.getElementsByClassName("block3")[2].appendChild(myPosition);
+document.getElementsByClassName("block3")[2].appendChild(myAlias);
+document.getElementsByClassName("block3")[2].appendChild(myBio);
+
